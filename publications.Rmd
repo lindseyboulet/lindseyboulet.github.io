@@ -1,0 +1,25 @@
+---
+output: 
+  html_document:
+        css: style/style.css
+bibliography: records/references.bib
+csl: style/aps-cv.csl
+---
+
+<br>
+
+# Publications
+
+
+```{r, include=FALSE}
+library(RefManageR)
+library(easyPubMed)
+ids <- get_pubmed_ids("Boulet LM[AU]")
+pubs <- GetPubMedByID(unlist(ids$IdList))  
+WriteBib(pubs, file = "./records/references.bib")
+```
+
+---
+nocite: '@*'
+...
+

@@ -1,0 +1,21 @@
+name: "Lindsey M. Boulet"
+output_dir: "."
+navbar:
+  title: "Lindsey M. Boulet, MSc"
+  left:
+    - text: "Presentations"
+      href: presentations.html
+    - text: "Publications"
+      href: publications.html
+
+  right:
+    - icon: fa-envelope fa-lg
+      href: contact.html
+    - icon: fa-github fa-lg
+      href: http://github.com/lindseyboulet
+    - icon: fa-linkedin fa-lg
+      href: https://www.linkedin.com/in/lindsey-boulet/
+output:
+  html_document:
+    theme: paper
+    css: 'styles.css'

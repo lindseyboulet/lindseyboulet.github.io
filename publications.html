@@ -1,0 +1,407 @@
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+
+<meta charset="utf-8" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="generator" content="pandoc" />
+
+
+
+
+<title></title>
+
+<script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link href="site_libs/bootstrap-3.3.5/css/paper.min.css" rel="stylesheet" />
+<script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
+<script src="site_libs/navigation-1.1/tabsets.js"></script>
+<link href="site_libs/highlightjs-9.12.0/default.css" rel="stylesheet" />
+<script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
+<link href="site_libs/font-awesome-5.1.0/css/all.css" rel="stylesheet" />
+<link href="site_libs/font-awesome-5.1.0/css/v4-shims.css" rel="stylesheet" />
+
+<style type="text/css">code{white-space: pre;}</style>
+<style type="text/css">
+  pre:not([class]) {
+    background-color: white;
+  }
+</style>
+<script type="text/javascript">
+if (window.hljs) {
+  hljs.configure({languages: []});
+  hljs.initHighlightingOnLoad();
+  if (document.readyState && document.readyState === "complete") {
+    window.setTimeout(function() { hljs.initHighlighting(); }, 0);
+  }
+}
+</script>
+
+
+
+<style type="text/css">
+h1 {
+  font-size: 34px;
+}
+h1.title {
+  font-size: 38px;
+}
+h2 {
+  font-size: 30px;
+}
+h3 {
+  font-size: 24px;
+}
+h4 {
+  font-size: 18px;
+}
+h5 {
+  font-size: 16px;
+}
+h6 {
+  font-size: 12px;
+}
+.table th:not([align]) {
+  text-align: left;
+}
+</style>
+
+<link rel="stylesheet" href="style/style.css" type="text/css" />
+
+</head>
+
+<body>
+
+<style type = "text/css">
+.main-container {
+  max-width: 940px;
+  margin-left: auto;
+  margin-right: auto;
+}
+code {
+  color: inherit;
+  background-color: rgba(0, 0, 0, 0.04);
+}
+img {
+  max-width:100%;
+  height: auto;
+}
+.tabbed-pane {
+  padding-top: 12px;
+}
+.html-widget {
+  margin-bottom: 20px;
+}
+button.code-folding-btn:focus {
+  outline: none;
+}
+summary {
+  display: list-item;
+}
+</style>
+
+
+<style type="text/css">
+/* padding for bootstrap navbar */
+body {
+  padding-top: 64px;
+  padding-bottom: 40px;
+}
+/* offset scroll position for anchor links (for fixed navbar)  */
+.section h1 {
+  padding-top: 69px;
+  margin-top: -69px;
+}
+.section h2 {
+  padding-top: 69px;
+  margin-top: -69px;
+}
+.section h3 {
+  padding-top: 69px;
+  margin-top: -69px;
+}
+.section h4 {
+  padding-top: 69px;
+  margin-top: -69px;
+}
+.section h5 {
+  padding-top: 69px;
+  margin-top: -69px;
+}
+.section h6 {
+  padding-top: 69px;
+  margin-top: -69px;
+}
+.dropdown-submenu {
+  position: relative;
+}
+.dropdown-submenu>.dropdown-menu {
+  top: 0;
+  left: 100%;
+  margin-top: -6px;
+  margin-left: -1px;
+  border-radius: 0 6px 6px 6px;
+}
+.dropdown-submenu:hover>.dropdown-menu {
+  display: block;
+}
+.dropdown-submenu>a:after {
+  display: block;
+  content: " ";
+  float: right;
+  width: 0;
+  height: 0;
+  border-color: transparent;
+  border-style: solid;
+  border-width: 5px 0 5px 5px;
+  border-left-color: #cccccc;
+  margin-top: 5px;
+  margin-right: -10px;
+}
+.dropdown-submenu:hover>a:after {
+  border-left-color: #ffffff;
+}
+.dropdown-submenu.pull-left {
+  float: none;
+}
+.dropdown-submenu.pull-left>.dropdown-menu {
+  left: -100%;
+  margin-left: 10px;
+  border-radius: 6px 0 6px 6px;
+}
+</style>
+
+<script>
+// manage active state of menu based on current page
+$(document).ready(function () {
+  // active menu anchor
+  href = window.location.pathname
+  href = href.substr(href.lastIndexOf('/') + 1)
+  if (href === "")
+    href = "index.html";
+  var menuAnchor = $('a[href="' + href + '"]');
+
+  // mark it active
+  menuAnchor.parent().addClass('active');
+
+  // if it's got a parent navbar menu mark it active as well
+  menuAnchor.closest('li.dropdown').addClass('active');
+});
+</script>
+
+<div class="container-fluid main-container">
+
+<!-- tabsets -->
+
+<style type="text/css">
+.tabset-dropdown > .nav-tabs {
+  display: inline-table;
+  max-height: 500px;
+  min-height: 44px;
+  overflow-y: auto;
+  background: white;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.tabset-dropdown > .nav-tabs > li.active:before {
+  content: "";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
+  content: "&#xe258;";
+  border: none;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open:before {
+  content: "";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs > li.active {
+  display: block;
+}
+
+.tabset-dropdown > .nav-tabs > li > a,
+.tabset-dropdown > .nav-tabs > li > a:focus,
+.tabset-dropdown > .nav-tabs > li > a:hover {
+  border: none;
+  display: inline-block;
+  border-radius: 4px;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li {
+  display: block;
+  float: none;
+}
+
+.tabset-dropdown > .nav-tabs > li {
+  display: none;
+}
+</style>
+
+<script>
+$(document).ready(function () {
+  window.buildTabsets("TOC");
+});
+
+$(document).ready(function () {
+  $('.tabset-dropdown > .nav-tabs > li').click(function () {
+    $(this).parent().toggleClass('nav-tabs-open')
+  });
+});
+</script>
+
+<!-- code folding -->
+
+
+
+
+
+<div class="navbar navbar-default  navbar-fixed-top" role="navigation">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="index.html">Lindsey M. Boulet, MSc</a>
+    </div>
+    <div id="navbar" class="navbar-collapse collapse">
+      <ul class="nav navbar-nav">
+        <li>
+  <a href="presentations.html">Presentations</a>
+</li>
+<li>
+  <a href="publications.html">Publications</a>
+</li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        <li>
+  <a href="contact.html">
+    <span class="fa fa-envelope fa-lg"></span>
+     
+  </a>
+</li>
+<li>
+  <a href="http://github.com/lindseyboulet">
+    <span class="fa fa-github fa-lg"></span>
+     
+  </a>
+</li>
+<li>
+  <a href="https://www.linkedin.com/in/lindsey-boulet/">
+    <span class="fa fa-linkedin fa-lg"></span>
+     
+  </a>
+</li>
+      </ul>
+    </div><!--/.nav-collapse -->
+  </div><!--/.container -->
+</div><!--/.navbar -->
+
+<div class="fluid-row" id="header">
+
+
+
+
+</div>
+
+
+<p><br></p>
+<div id="publications" class="section level1 unnumbered">
+<h1>Publications</h1>
+<div id="refs" class="references">
+<div id="ref-stembridge2019independent">
+<p>Stembridge, M., Ainslie, P. N., Boulet, L. M., Anholm, J., Subedi, P., Tymko, M. M., … Shave, R. (2019). The independent effects of hypovolaemia and pulmonary vasoconstriction on ventricular function and exercise capacity during acclimatisation to 3800 m. <em>The Journal of Physiology</em>, <em>597</em>(4), 1059–1072. <a href="https://doi.org/10.1113/JP275278" class="uri">https://doi.org/10.1113/JP275278</a></p>
+</div>
+<div id="ref-boulet2018attenuation">
+<p>Boulet, L. M., Teppema, L. J., Hackett, H. K., Dominelli, P. B., Cheyne, W. S., Dominelli, G. S., … Foster, G. E. (2018). Attenuation of human hypoxic pulmonary vasoconstriction by acetazolamide and methazolamide. <em>Journal of Applied Physiology (Bethesda, Md. : 1985)</em>. <a href="https://doi.org/10.1152/japplphysiol.00509.2018" class="uri">https://doi.org/10.1152/japplphysiol.00509.2018</a></p>
+</div>
+<div id="ref-davis2018ventilatory">
+<p>Davis, J. T., Boulet, L. M., Hardin, A. M., Chang, A. J., Lovering, A. T., &amp; Foster, G. E. (2018). Ventilatory responses to acute hypoxia and hypercapnia in humans with a patent foramen ovale. <em>Journal of Applied Physiology (Bethesda, Md. : 1985)</em>. <a href="https://doi.org/10.1152/japplphysiol.00741.2018" class="uri">https://doi.org/10.1152/japplphysiol.00741.2018</a></p>
+</div>
+<div id="ref-vermeulen2018influence">
+<p>Vermeulen, T. D., Boulet, L. M., Stembridge, M., Williams, A. M., Anholm, J. D., Subedi, P., … Foster, G. E. (2018). Influence of myocardial oxygen demand on the coronary vascular response to arterial blood gas changes in humans. <em>American Journal of Physiology. Heart and Circulatory Physiology</em>, <em>315</em>(1), H132–H140. <a href="https://doi.org/10.1152/ajpheart.00689.2017" class="uri">https://doi.org/10.1152/ajpheart.00689.2017</a></p>
+</div>
+<div id="ref-borle2017intra">
+<p>Borle, K. J., Pfoh, J. R., Boulet, L. M., Abrosimova, M., Tymko, M. M., Skow, R. J., … Day, T. A. (2017). Intra-individual variability in cerebrovascular and respiratory chemosensitivity: Can we characterize a chemoreflex “reactivity profile”? <em>Respiratory Physiology &amp; Neurobiology</em>, <em>242</em>, 30–39. <a href="https://doi.org/10.1016/j.resp.2017.02.014" class="uri">https://doi.org/10.1016/j.resp.2017.02.014</a></p>
+</div>
+<div id="ref-boulet2017reduced">
+<p>Boulet, L. M., Lovering, A. T., Tymko, M. M., Day, T. A., Stembridge, M., Nguyen, T. A., … Foster, G. E. (2017). Reduced blood flow through intrapulmonary arteriovenous anastomoses during exercise in lowlanders acclimatizing to high altitude. <em>Experimental Physiology</em>, <em>102</em>(6), 670–683. <a href="https://doi.org/10.1113/EP086182" class="uri">https://doi.org/10.1113/EP086182</a></p>
+</div>
+<div id="ref-tymko2017intracranial">
+<p>Tymko, M. M., Boulet, L. M., &amp; Donnelly, J. (2017). Intracranial pressure in outer space: Preparing for the mission to mars. <em>The Journal of Physiology</em>, <em>595</em>(14), 4587–4588. <a href="https://doi.org/10.1113/JP274315" class="uri">https://doi.org/10.1113/JP274315</a></p>
+</div>
+<div id="ref-boulet2016effects">
+<p>Boulet, L. M., Stembridge, M., Tymko, M. M., Tremblay, J. C., &amp; Foster, G. E. (2016). The effects of graded changes in oxygen and carbon dioxide tension on coronary blood velocity independent of myocardial energy demand. <em>American Journal of Physiology. Heart and Circulatory Physiology</em>, <em>311</em>(2), H326–36. <a href="https://doi.org/10.1152/ajpheart.00107.2016" class="uri">https://doi.org/10.1152/ajpheart.00107.2016</a></p>
+</div>
+<div id="ref-boulet2016influence">
+<p>Boulet, L. M., Tymko, M. M., Jamieson, A. N., Ainslie, P. N., Skow, R. J., &amp; Day, T. A. (2016). Influence of prior hyperventilation duration on respiratory chemosensitivity and cerebrovascular reactivity during modified hyperoxic rebreathing. <em>Experimental Physiology</em>, <em>101</em>(7), 821–35. <a href="https://doi.org/10.1113/EP085706" class="uri">https://doi.org/10.1113/EP085706</a></p>
+</div>
+<div id="ref-foster2016commentaries">
+<p>Foster, G. E., Bain, A. R., Tremblay, J. C., Boulet, L. M., Lemaitre, F., Madden, D., … Muth, C.-M. (2016). Commentaries on viewpoint: Why predominantly neurological dcs in breath-hold divers? <em>Journal of Applied Physiology (Bethesda, Md. : 1985)</em>, <em>120</em>(12), 1478–82. <a href="https://doi.org/10.1152/japplphysiol.00242.2016" class="uri">https://doi.org/10.1152/japplphysiol.00242.2016</a></p>
+</div>
+<div id="ref-hackett2016methodological">
+<p>Hackett, H. K., Boulet, L. M., Dominelli, P. B., &amp; Foster, G. E. (2016). A methodological approach for quantifying and characterizing the stability of agitated saline contrast: Implications for quantifying intrapulmonary shunt. <em>Journal of Applied Physiology (Bethesda, Md. : 1985)</em>, <em>121</em>(2), 568–76. <a href="https://doi.org/10.1152/japplphysiol.00422.2016" class="uri">https://doi.org/10.1152/japplphysiol.00422.2016</a></p>
+</div>
+<div id="ref-mackay2016central">
+<p>MacKay, C. M., Skow, R. J., Tymko, M. M., Boulet, L. M., Davenport, M. H., Steinback, C. D., … Day, T. A. (2016). Central respiratory chemosensitivity and cerebrovascular co2 reactivity: A rebreathing demonstration illustrating integrative human physiology. <em>Advances in Physiology Education</em>, <em>40</em>(1), 79–92. <a href="https://doi.org/10.1152/advan.00048.2015" class="uri">https://doi.org/10.1152/advan.00048.2015</a></p>
+</div>
+<div id="ref-pfoh2016comparing">
+<p>Pfoh, J. R., Tymko, M. M., Abrosimova, M., Boulet, L. M., Foster, G. E., Bain, A. R., … Day, T. A. (2016). Comparing and characterizing transient and steady-state tests of the peripheral chemoreflex in humans. <em>Experimental Physiology</em>, <em>101</em>(3), 432–47. <a href="https://doi.org/10.1113/EP085498" class="uri">https://doi.org/10.1113/EP085498</a></p>
+</div>
+<div id="ref-tremblay2016intermittent">
+<p>Tremblay, J. C., Boulet, L. M., Tymko, M. M., &amp; Foster, G. E. (2016). Intermittent hypoxia and arterial blood pressure control in humans: Role of the peripheral vasculature and carotid baroreflex. <em>American Journal of Physiology. Heart and Circulatory Physiology</em>, <em>311</em>(3), H699–706. <a href="https://doi.org/10.1152/ajpheart.00388.2016" class="uri">https://doi.org/10.1152/ajpheart.00388.2016</a></p>
+</div>
+<div id="ref-tymko2016measuring">
+<p>Tymko, M. M., Hoiland, R. L., Kuca, T., Boulet, L. M., Tremblay, J. C., Pinske, B. K., … Foster, G. E. (2016). Measuring the human ventilatory and cerebral blood flow response to co2: A technical consideration for the end-tidal-to-arterial gas gradient. <em>Journal of Applied Physiology (Bethesda, Md. : 1985)</em>, <em>120</em>(2), 282–96. <a href="https://doi.org/10.1152/japplphysiol.00787.2015" class="uri">https://doi.org/10.1152/japplphysiol.00787.2015</a></p>
+</div>
+<div id="ref-baden2014extreme">
+<p>Baden, J. R., Abrosimova, M., Boulet, L. M., Tymko, M. M., Pfoh, J. R., Skow, R. J., &amp; Day, T. A. (2014). Extreme respiratory sinus arrhythmia in response to superimposed head-down tilt and deep breathing. <em>Aviation, Space, and Environmental Medicine</em>, <em>85</em>(12), 1222–8. <a href="https://doi.org/10.3357/ASEM.4085.2014" class="uri">https://doi.org/10.3357/ASEM.4085.2014</a></p>
+</div>
+</div>
+</div>
+
+
+
+
+</div>
+
+<script>
+
+// add bootstrap table styles to pandoc tables
+function bootstrapStylePandocTables() {
+  $('tr.header').parent('thead').parent('table').addClass('table table-condensed');
+}
+$(document).ready(function () {
+  bootstrapStylePandocTables();
+});
+
+
+</script>
+
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    script.src  = "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML";
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script>
+
+</body>
+</html>

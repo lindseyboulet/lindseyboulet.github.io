@@ -1,0 +1,14 @@
+/* Whole document: */
+  body{
+    font-family: Helvetica;
+    font-size: 12pt;
+  }
+/* Headers */
+  h1,h2,h3,h4,h5,h6{
+    font-size: 18pt;
+  }
+  
+ /* make debit amounts show up in red */
+  body[text=="Boulet"]:after{
+    font-size:25pt;
+  }

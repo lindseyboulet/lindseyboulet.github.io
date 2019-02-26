@@ -1,0 +1,20 @@
+---
+output: 
+  html_document:
+        css: style/style.css
+---
+<br>
+
+
+```{r echo=FALSE}
+library(knitr)
+library(kableExtra)
+df <- read.csv("./records/presentations.csv")
+df[,4] <- " "
+df <- df[,c(1,2,4,3)]
+kable(df, booktabs = T, col.names = c('Date', 'Title', ' ', 'Location')) %>% column_spec(1, width = "7em") %>% 
+  column_spec(2, width = "27em")%>% 
+  column_spec(3, width = "3em")
+
+```
+

@@ -9,6 +9,13 @@
     <lastBuildDate>Mon, 10 Jul 2023 00:00:00 +0000</lastBuildDate>
     <atom:link href="/categories/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>syntax</title>
+      <link>/categories/syntax/</link>
+      <pubDate>Mon, 10 Jul 2023 00:00:00 +0000</pubDate>
+      <guid>/categories/syntax/</guid>
+      <description></description>
+    </item>
+    <item>
       <title>theme demo</title>
       <link>/categories/theme-demo/</link>
       <pubDate>Mon, 10 Jul 2023 00:00:00 +0000</pubDate>
@@ -20,13 +27,6 @@
       <link>/categoria/temas/</link>
       <pubDate>Wed, 04 Jan 2023 23:21:18 +0100</pubDate>
       <guid>/categoria/temas/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>sintaxe</title>
-      <link>/categoria/sintaxe/</link>
-      <pubDate>Wed, 04 Jan 2023 23:21:06 +0100</pubDate>
-      <guid>/categoria/sintaxe/</guid>
       <description></description>
     </item>
     <item>

@@ -1,0 +1,210 @@
+﻿Statement,Header,Field Name,Field Value
+Statement,Data,BrokerName,Interactive Brokers Canada Inc.
+Statement,Data,BrokerAddress,"1800 McGill College Avenue, Suite 2106, Montreal, Quebec, Canada  H3A 3J6"
+Statement,Data,Title,Activity Statement
+Statement,Data,Period,"January 1, 2023 - December 31, 2023"
+Statement,Data,WhenGenerated,"2024-02-13, 14:17:32 EST"
+Account Information,Header,Field Name,Field Value
+Account Information,Data,Name,Gene R Neufeld
+Account Information,Data,Account,U11166407
+Account Information,Data,Account Type,Individual
+Account Information,Data,Customer Type,Tax-Free Savings Account
+Account Information,Data,Account Capabilities,Cash
+Account Information,Data,Base Currency,CAD
+Net Asset Value,Header,Asset Class,Prior Total,Current Long,Current Short,Current Total,Change
+Net Asset Value,Data,Cash ,0,2495.2583,0,2495.2583,2495.2583
+Net Asset Value,Data,Stock,0,2594.88,0,2594.88,2594.88
+Net Asset Value,Data,Dividend Accruals,0,18.55,0,18.55,18.55
+Net Asset Value,Data,Total,0,5108.6883,0,5108.6883,5108.6883
+Net Asset Value,Header,Time Weighted Rate of Return
+Net Asset Value,Data,6.194327949%
+Change in NAV,Header,Field Name,Field Value
+Change in NAV,Data,Starting Value,0
+Change in NAV,Data,Mark-to-Market,92.66
+Change in NAV,Data,Deposits & Withdrawals,5000
+Change in NAV,Data,Dividends,6.73
+Change in NAV,Data,Change in Dividend Accruals,18.55
+Change in NAV,Data,Commissions,-9.2517
+Change in NAV,Data,Ending Value,5108.6883
+Mark-to-Market Performance Summary,Header,Asset Category,Symbol,Prior Quantity,Current Quantity,Prior Price,Current Price,Mark-to-Market P/L Position,Mark-to-Market P/L Transaction,Mark-to-Market P/L Commissions,Mark-to-Market P/L Other,Mark-to-Market P/L Total,Code
+Mark-to-Market Performance Summary,Data,Stocks,VGRO,0,12,--,31.8400,19.02,-0.48,-1.8262,1.85,18.5638,
+Mark-to-Market Performance Summary,Data,Stocks,XEQT,0,80,--,27.6600,75.04,-0.92,-7.4255,4.88,71.5745,
+Mark-to-Market Performance Summary,Data,Total,,,,,,94.06,-1.4,-9.2517,6.73,90.1383,
+Mark-to-Market Performance Summary,Data,Forex,CAD,0,2495.2583,1.0000,1.0000,0,0,0,0,0,
+Mark-to-Market Performance Summary,Data,Total,,,,,,0,0,0,0,0,
+Mark-to-Market Performance Summary,Data,Total (All Assets),,,,,,94.06,-1.4,-9.2517,6.73,90.1383,
+Realized & Unrealized Performance Summary,Header,Asset Category,Symbol,Cost Adj.,Realized S/T Profit,Realized S/T Loss,Realized L/T Profit,Realized L/T Loss,Realized Total,Unrealized S/T Profit,Unrealized S/T Loss,Unrealized L/T Profit,Unrealized L/T Loss,Unrealized Total,Total,Code
+Realized & Unrealized Performance Summary,Data,Stocks,VGRO,0,0,0,0,0,0,16.7138,0,0,0,16.7138,16.7138,
+Realized & Unrealized Performance Summary,Data,Stocks,XEQT,0,0,0,0,0,0,70.2345,-3.54,0,0,66.6945,66.6945,
+Realized & Unrealized Performance Summary,Data,Total,,0,0,0,0,0,0,86.9483,-3.54,0,0,83.4083,83.4083,
+Realized & Unrealized Performance Summary,Data,Total (All Assets),,0,0,0,0,0,0,86.9483,-3.54,0,0,83.4083,83.4083,
+Cash Report,Header,Currency Summary,Currency,Total,
+Cash Report,Data,Starting Cash,Base Currency Summary,0,
+Cash Report,Data,Commissions,Base Currency Summary,-9.2517,
+Cash Report,Data,Deposits,Base Currency Summary,5000,
+Cash Report,Data,Dividends,Base Currency Summary,6.73,
+Cash Report,Data,Trades (Purchase),Base Currency Summary,-2502.22,
+Cash Report,Data,Ending Cash,Base Currency Summary,2495.2583,
+Cash Report,Data,Ending Settled Cash,Base Currency Summary,2495.2583,
+Open Positions,Header,DataDiscriminator,Asset Category,Currency,Symbol,Quantity,Mult,Cost Price,Cost Basis,Close Price,Value,Unrealized P/L,Code
+Open Positions,Data,Summary,Stocks,CAD,VGRO,12,1,30.447183333,365.3662,31.84,382.08,16.7138,
+Open Positions,Data,Summary,Stocks,CAD,XEQT,80,1,26.82631875,2146.1055,27.66,2212.8,66.6945,
+Open Positions,Total,,Stocks,CAD,,,,,2511.4717,,2594.88,83.4083,
+Trades,Header,DataDiscriminator,Asset Category,Currency,Symbol,Date/Time,Quantity,T. Price,C. Price,Proceeds,Comm/Fee,Basis,Realized P/L,MTM P/L,Code
+Trades,Data,Order,Stocks,CAD,VGRO,"2023-07-19, 13:35:33",2,30.82,30.88,-61.64,-0.3082,61.9482,0,0.12,O
+Trades,Data,Order,Stocks,CAD,VGRO,"2023-08-11, 12:38:53",5,30.63,30.66,-153.15,-0.77425,153.92425,0,0.15,O
+Trades,Data,Order,Stocks,CAD,VGRO,"2023-09-26, 10:10:14",5,29.75,29.6,-148.75,-0.74375,149.49375,0,-0.75,O
+Trades,SubTotal,,Stocks,CAD,VGRO,,12,,,-363.54,-1.8262,365.3662,0,-0.48,
+Trades,Data,Order,Stocks,CAD,XEQT,"2023-03-07, 14:22:14",3,25.62,25.6,-76.86,-0.3843,77.2443,0,-0.06,O
+Trades,Data,Order,Stocks,CAD,XEQT,"2023-05-04, 09:30:00",4,25.76,25.58,-103.04,-0.522,103.562,0,-0.72,O
+Trades,Data,Order,Stocks,CAD,XEQT,"2023-05-30, 13:19:33",2,25.8,25.78,-51.6,-0.258,51.858,0,-0.04,O
+Trades,Data,Order,Stocks,CAD,XEQT,"2023-06-20, 14:38:15",2,26.12,26.09,-52.24,-0.2612,52.5012,0,-0.06,O
+Trades,Data,Order,Stocks,CAD,XEQT,"2023-08-11, 12:39:31",8,26.6,26.63,-212.8,-1,213.8,0,0.24,O
+Trades,Data,Order,Stocks,CAD,XEQT,"2023-08-15, 15:49:09",8,26.34,26.36,-210.72,-1,211.72,0,0.16,O
+Trades,Data,Order,Stocks,CAD,XEQT,"2023-09-26, 10:09:33",10,25.64,25.51,-256.4,-1,257.4,0,-1.3,O
+Trades,Data,Order,Stocks,CAD,XEQT,"2023-10-17, 12:49:52",10,26.07,26.03,-260.7,-1,261.7,0,-0.4,O
+Trades,Data,Order,Stocks,CAD,XEQT,"2023-12-18, 09:32:46",20,27.62,27.67,-552.4,-1,553.4,0,1,O
+Trades,Data,Order,Stocks,CAD,XEQT,"2023-12-27, 11:45:46",13,27.84,27.86,-361.92,-1,362.92,0,0.26,O
+Trades,SubTotal,,Stocks,CAD,XEQT,,80,,,-2138.68,-7.4255,2146.1055,0,-0.92,
+Trades,Total,,Stocks,CAD,,,,,,-2502.22,-9.2517,2511.4717,0,-1.4, 
+Deposits & Withdrawals,Header,Currency,Settle Date,Description,Amount
+Deposits & Withdrawals,Data,CAD,2023-01-18,Electronic Fund Transfer (Regular Contribution),50
+Deposits & Withdrawals,Data,CAD,2023-02-18,Cancellation (Unallocated Contribution),-50
+Deposits & Withdrawals,Data,CAD,2023-02-18,Electronic Fund Transfer (Unallocated Contribution),50
+Deposits & Withdrawals,Data,CAD,2023-02-18,Electronic Fund Transfer (Regular Contribution),50
+Deposits & Withdrawals,Data,CAD,2023-03-18,Electronic Fund Transfer (Regular Contribution),50
+Deposits & Withdrawals,Data,CAD,2023-04-19,Electronic Fund Transfer (Regular Contribution),50
+Deposits & Withdrawals,Data,CAD,2023-05-18,Electronic Fund Transfer (Regular Contribution),50
+Deposits & Withdrawals,Data,CAD,2023-06-20,Electronic Fund Transfer (Regular Contribution),50
+Deposits & Withdrawals,Data,CAD,2023-07-19,Electronic Fund Transfer (Regular Contribution),50
+Deposits & Withdrawals,Data,CAD,2023-08-02,Electronic Fund Transfer (Regular Contribution),2800
+Deposits & Withdrawals,Data,CAD,2023-08-18,Electronic Fund Transfer (Regular Contribution),50
+Deposits & Withdrawals,Data,CAD,2023-09-20,Electronic Fund Transfer (Regular Contribution),50
+Deposits & Withdrawals,Data,CAD,2023-10-18,Electronic Fund Transfer (Regular Contribution),50
+Deposits & Withdrawals,Data,CAD,2023-11-18,Electronic Fund Transfer (Regular Contribution),50
+Deposits & Withdrawals,Data,CAD,2023-11-18,Electronic Fund Transfer (Regular Contribution),1600
+Deposits & Withdrawals,Data,CAD,2023-12-20,Electronic Fund Transfer (Regular Contribution),50
+Deposits & Withdrawals,Data,Total,,,5000
+Dividends,Header,Currency,Date,Description,Amount
+Dividends,Data,CAD,2023-03-31,XEQT(CA46436D1087) Cash Dividend CAD 0.088 per Share (Ordinary Dividend),0.26
+Dividends,Data,CAD,2023-06-30,XEQT(CA46436D1087) Cash Dividend CAD 0.199 per Share (Ordinary Dividend),2.19
+Dividends,Data,CAD,2023-09-29,XEQT(CA46436D1087) Cash Dividend CAD 0.09 per Share (Ordinary Dividend),2.43
+Dividends,Data,CAD,2023-10-11,VGRO(CA92207X1050) Cash Dividend CAD 0.154103 per Share (Ordinary Dividend),1.85
+Dividends,Data,Total,,,6.73
+Change in Dividend Accruals,Header,Asset Category,Currency,Symbol,Date,Ex Date,Pay Date,Quantity,Tax,Fee,Gross Rate,Gross Amount,Net Amount,Code
+Change in Dividend Accruals,Data,Starting Dividend Accruals in CAD,,,,,,,,,,,0,
+Change in Dividend Accruals,Data,Stocks,CAD,VGRO,2023-09-28,2023-09-29,2023-10-11,12,0,0,0.154103,1.85,1.85,Po
+Change in Dividend Accruals,Data,Stocks,CAD,VGRO,2023-10-11,2023-09-29,2023-10-11,12,0,0,0.154103,-1.85,-1.85,Re
+Change in Dividend Accruals,Data,Stocks,CAD,VGRO,2023-12-27,2023-12-28,2024-01-08,12,0,0,0.209659,2.52,2.52,Po
+Change in Dividend Accruals,Data,Stocks,CAD,XEQT,2023-03-21,2023-03-22,2023-03-31,3,0,0,0.088,0.26,0.26,Po
+Change in Dividend Accruals,Data,Stocks,CAD,XEQT,2023-03-31,2023-03-22,2023-03-31,3,0,0,0.088,-0.26,-0.26,Re
+Change in Dividend Accruals,Data,Stocks,CAD,XEQT,2023-06-23,2023-06-26,2023-06-30,11,0,0,0.199,2.19,2.19,Po
+Change in Dividend Accruals,Data,Stocks,CAD,XEQT,2023-06-30,2023-06-26,2023-06-30,11,0,0,0.199,-2.19,-2.19,Re
+Change in Dividend Accruals,Data,Stocks,CAD,XEQT,2023-09-22,2023-09-25,2023-09-29,27,0,0,0.09,2.43,2.43,Po
+Change in Dividend Accruals,Data,Stocks,CAD,XEQT,2023-09-29,2023-09-25,2023-09-29,27,0,0,0.09,-2.43,-2.43,Re
+Change in Dividend Accruals,Data,Stocks,CAD,XEQT,2023-12-27,2023-12-28,2024-01-09,80,0,0,0.2004,16.03,16.03,Po
+Change in Dividend Accruals,Data,Total,,,,,,,0,0,,18.55,18.55,
+Change in Dividend Accruals,Data,Ending Dividend Accruals in CAD,,,,,,,,,,,18.55,
+Financial Instrument Information,Header,Asset Category,Symbol,Description,Conid,Security ID,Listing Exch,Multiplier,Type,Code
+Financial Instrument Information,Data,Stocks,VGRO,VANGUARD GROWTH ETF PORTFOLI,305186280,CA92207X1050,TSE,1,ETF,
+Financial Instrument Information,Data,Stocks,XEQT,ISHARES CORE EQUITY ETF PORT,378605923,CA46436D1087,TSE,1,ETF,
+Codes,Header,Code,Meaning,Code (Cont.),Meaning (Cont.)
+Codes,Data,A,Assignment
+Codes,Data,ADR,ADR Fee Accrual
+Codes,Data,AEx,Automatic exercise for dividend-related recommendation.
+Codes,Data,AFx,AutoFX conversion resulting from trading
+Codes,Data,Adj,Adjustment
+Codes,Data,Al,Allocation
+Codes,Data,Aw,Away Trade
+Codes,Data,B,Automatic Buy-in
+Codes,Data,Bo,Direct Borrow
+Codes,Data,C,Closing Trade
+Codes,Data,CD,Cash Delivery
+Codes,Data,CP,Complex Position
+Codes,Data,Ca,Cancelled
+Codes,Data,Co,Corrected Trade
+Codes,Data,Cx,Part or all of this transaction was a Crossing executed as dual agent by IB for two IB customers
+Codes,Data,ETF,ETF Creation/Redemption
+Codes,Data,Ep,Resulted from an Expired Position
+Codes,Data,Ex,Exercise
+Codes,Data,FP,The fractional portion of this trade was executed against IB or an affiliate.
+Codes,Data,FPA,The fractional portion of this trade was executed against IB or an affiliate. IB acted as agent for the whole share portion of this trade.
+Codes,Data,G,Trade in Guaranteed Account Segment
+Codes,Data,GEA,Exercise or Assignment resulting from offsetting positions
+Codes,Data,HC,Highest Cost tax basis election
+Codes,Data,HFI,Investment Transferred to Hedge Fund
+Codes,Data,HFR,Redemption from Hedge Fund
+Codes,Data,I,Internal Transfer
+Codes,Data,IA,The transaction was executed against IB or an affiliate
+Codes,Data,IM,A portion of the order was executed against IB or an affiliate; IB acted as agent on a portion.
+Codes,Data,INV,Investment Transfer from Investor
+Codes,Data,IPO,This transaction was executed as part of an IPO in which IB was a member of the selling group and is classified as a Principal trade.
+Codes,Data,L,Ordered by IB (Margin Violation)
+Codes,Data,LD,Adjusted by Loss Disallowed from Wash Sale
+Codes,Data,LI,"Last In, First Out (LIFO) tax basis election"
+Codes,Data,LT,Long Term P/L
+Codes,Data,Lo,Direct Loan
+Codes,Data,M,Entered manually by IB
+Codes,Data,MEx,Manual exercise for dividend-related recommendation.
+Codes,Data,ML,Maximize Losses tax basis election
+Codes,Data,MLG,Maximize Long Term Gain tax basis election
+Codes,Data,MLL,Maximize Long Term Loss tax basis election
+Codes,Data,MSG,Maximize Short Term Gain tax basis election
+Codes,Data,MSL,Maximize Short Term Loss tax basis election
+Codes,Data,O,Opening Trade
+Codes,Data,P,Partial Execution
+Codes,Data,PE,Perpetual Investment
+Codes,Data,PI,Price Improvement
+Codes,Data,Po,Interest or Dividend Accrual Posting
+Codes,Data,Pr,Part or all of this transaction was executed by the Exchange as a Crossing by IB against an IB affiliate and is therefore classified as a Principal and not an agency trade
+Codes,Data,R,Dividend Reinvestment
+Codes,Data,RED,Redemption to Investor
+Codes,Data,RI,Recurring Investment
+Codes,Data,RP,"IB acted as agent for the fractional share portion of this trade, which was executed by an IB affiliate as riskless principal."
+Codes,Data,RPA,IB acted as agent for both the fractional share portion and the whole share portion of this trade; the fractional share portion was executed by an IB Affiliate as riskless principal.
+Codes,Data,Rb,Rebill
+Codes,Data,Re,Interest or Dividend Accrual Reversal
+Codes,Data,Ri,Reimbursement
+Codes,Data,SF,Trade is subject to IBKR Lite Surcharge Fee if volume of such trades exceeds 10% of the total monthly Lite trade volume
+Codes,Data,SI,This order was solicited by Interactive Brokers
+Codes,Data,SL,Specific Lot tax basis election
+Codes,Data,SO,This order was marked as solicited by your Introducing Broker
+Codes,Data,SS,Customer designated this trade for shortened settlement and so is subject to execution at prices above the prevailing market
+Codes,Data,ST,Short Term P/L
+Codes,Data,T,Transfer
+Codes,Data,Un,Unvested shares from stock grant
+Codes,Data,XCH,Mutual Fund Exchange Transaction
+Notes/Legal Notes,Header,Type,Note
+Notes/Legal Notes,Data,Notes,"Most stock exchange transactions settle on the trade date plus two business days. Options, futures and US open-end mutual fund transactions settle on trade date plus one business day. (Some exchanges and other transaction types may have longer or shorter settlement periods.) Ending settled cash reflects the cash that has actually settled.  "
+Notes/Legal Notes,Data,Notes,Initial and maintenance margin requirements are available within the Account Window of the Trader Workstation.
+Notes/Legal Notes,Data,Notes,Quantities preceded by a "-" sign indicate sell transactions. Other transactions are purchases. 
+Notes/Legal Notes,Data,Notes,"IB acts as agent in executing the fractional share portion of your order. In certain circumstances, IB routes the fractional portion of your order to an affiliate, which may execute the fractional portion of the order as principal. In such circumstances, this is indicated by the codes associated with the trade. If an IB affiliate acts as principal in executing any fractional share portion of your order, the order will be executed at the price displayed for the opposite side of the NBBO from your order (the offer if you are buying and the bid if you are selling) at the time of execution. If an IB affiliate is acting as riskless principal in connection with filling the fractional share portion of your order, the affiliate will execute the fractional share portion of your order at the price it receives for the execution of the whole share."
+Notes/Legal Notes,Data,Notes,"In case of partial executions, commissions are charged on the total quantity executed on the original order. The commission is displayed on the first partial execution only."
+Notes/Legal Notes,Data,Notes,Each closed lot indicated above with a reference to note (6) was chosen by the end of the trading day to be sold versus the specific opening purchase identified in that row.
+Notes/Legal Notes,Data,Notes,Trade execution times are displayed in Eastern Time.
+Notes/Legal Notes,Data,Notes,Applicable regulatory fees for your transactions are available on the IB website at www.interactivebrokers.com/en/accounts/fees/exchangeAndRegulatoryFees.php.
+Notes/Legal Notes,Data,Notes,"Borrow Fee Rate represents the cost to borrow stock expressed in percent per annum. It is applied to the collateral value on the stock borrow contract and is separate from any interest earned on credit cash balances. Similarly, Loan Fee Rate represents the benefit to lend stock. A positive rate indicates a cost to the borrower/benefit to the lender and a negative rate indicates a benefit to the borrower/cost to the lender. In general, the fee rates for hard-to-borrow stocks are higher than for normal availability stocks."
+Notes/Legal Notes,Data,Notes,Interest Rate on Customer Collateral represents the interest paid on the collateral posted to the customer's account and received from lending stock.  A positive rate indicates a benefit to the lender.
+Notes/Legal Notes,Data,Notes,"The closing prices on this Activity Statement are indicative and may come from third-party sources. Interactive Brokers does not warrant the accuracy of the prices provided by third-party sources. Due to time zone differences, certain non-US mutual funds may deliver closing prices after the Activity Statement has been produced and the closing prices for such funds will reflect the previous day's price."
+Notes/Legal Notes,Data,Notes,All Market Data and Research services are provided through Global Financial Information Services (GmbH).
+Notes/Legal Notes,Data,Notes,"Market data is provided by Global Financial Information Services (GmbH). Your local broker collects amounts owed for fees and tax for such data on behalf of Global Financial Information Services (GmbH). Note, you are responsible for any applicable taxes relating to the provision of these services."
+Notes/Legal Notes,Data,Notes,"Please note that the ""cost"" of a security position refers to its ""book cost"" which means, in the case of a long security position, the total amount paid for the security, including any transaction charges related to the purchase and in the case of a short security position, the total amount received for the security, net of any transaction charges related to the sale, adjusted for distributions (other than dividends for short security position), returns of capital and corporate actions. In the case of securities transferred in, ""cost"" may in some instances refer to the market value of the security position as at the date of transfer and in such cases, market value information will be used to estimate part or all of the book cost of the relevant security position unless IBC reasonably believes it cannot determine the book cost of such security position.  Accordingly, the stated cost may not be appropriate for account performance or tax reporting purposes."
+Notes/Legal Notes,Data,Mutual Fund Notes,"All purchase and sales of mutual funds are calculated against the published NAV (Net Asset Value) of the underlying fund and is displayed on this confirmation as the ""C. Price"" (Closing Price). Due to any fees charged by a fund and/or any share rounding, the net price you pay may vary from the published NAV and is shown on this confirmation as the ""T. Price"" (Trade Price)."
+Notes/Legal Notes,Data,Fixed Income Notes,"Call features for bonds or preferred stocks may affect the yield. For zero coupon, compound interest and multiplier securities, there are no periodic payments and securities may be callable below maturity value without notice to holder unless registered. For asset-backed securities, the actual yield may vary depending on the speed at which the underlying note is pre-paid. For additional information regarding bond yield, please contact the IB Help Desk at: help@interactivebrokers.com. If this debt security is unrated by a nationally recognized statistical rating organization, it may pose a high risk of default. You should consult a financial advisor to determine whether unrated bonds are appropriate for your portfolio in light of your goals and your financial circumstances. Fees charged by bond trading centers are included in the cost of bond transactions."
+Notes/Legal Notes,Data,Legal Notes,"THIS STATEMENT IS BEING ISSUED TO YOU BY INTERACTIVE BROKERS CANADA INC. WHO HAS AGREED TO ACT AS THE CUSTODIAN FOR THE ASSETS DISCLOSED ON THIS STATEMENT. THE ASSETS THAT MAY BE ELIGIBLE FOR THE CANADIAN INVESTOR PROTECTION FUND (CIPF) COVERAGE, WITHIN SPECIFIED LIMITS, ARE LIMITED TO THOSE DISCLOSED IN THIS ACCOUNT STATEMENT.Please promptly report any inaccuracy or discrepancy in this statement, or in your account. Contact the IB Customer Service Department in writing using the form available on the IB website. You may also contact IB by phone, but if you report an error by phone, you should re-confirm such oral communication in writing in order to protect your rights, including rights under the Canadian Investor Protection Fund (CIPF).Interactive Brokers Canada Inc., www.interactivebrokers.ca, 877-745-4222 (Can.)"
+Notes/Legal Notes,Data,Legal Notes,"Interactive Brokers Group, Inc. (IBKR-NASDAQ) is a related or connected issuer of Interactive Brokers Canada Inc."
+Notes/Legal Notes,Data,Legal Notes,"All Volume Weighted Average Price (VWAP) trades are effected pursuant to an average price formula based on a reference price provided by a third-party data provider. Additional information about reference prices are available upon request.  IB, as agent, effects VWAP transactions through a market making affiliate, which acts as principal in such transactions and may have a long or short position in the security and may have profited or lost in connection with the transaction."
+Notes/Legal Notes,Data,Legal Notes,"IB accepts liquidity rebates or other order flow payments from Alternative Trading Systems, market makers and exchanges for certain orders in stocks. IB receives payment for some option orders pursuant to exchange-mandated marketing fee programs or other arrangements. The source and nature of any compensation received by IB in connection with any transaction is available upon written request of the customer. For further information, check the IB website and the Order Routing and Payment for Order Flow Disclosure provided when you opened your account and annually or email help@interactivebrokers.com."
+Notes/Legal Notes,Data,Legal Notes,"For security futures trades, if not already indicated on this statement, information about the time of any transaction, the identity of the counterparty to the transaction, and whether IB is acting as agent or principal, as agent for the counterparty, as agent for both parties to the contract, or as principal, and if acting as principal, whether the transaction was a block transaction or an exchange for physicals transaction, will be available upon written request of the customer."
+Notes/Legal Notes,Data,Legal Notes,"Interactive Brokers Canada Inc. offers ""Order-Execution Only Accounts."" This is an order execution only account. In addition, Customer is requested to promptly advise IB Canada of any material change in Customer's investment objectives or financial situation."
+Notes/Legal Notes,Data,Legal Notes,"Any free credit balances represent funds payable on demand which, although properly recorded in our books, are not segregated and may be used in the conduct of our business."
+Notes/Legal Notes,Data,Legal Notes,The audited financial summary statements of Interactive Brokers Canada Inc. and a list of the Partners/Directors/Officers (PDOs) of Interactive Brokers Canada Inc. are available upon request.
+Notes/Legal Notes,Data,Legal Notes,We are required to disclose to the Canada Revenue Agency all transactions involving the disposition  of securities.  Therefore we recommend that you keep your statements for tax purposes.
+Notes/Legal Notes,Data,Legal Notes,Customers' accounts are protected by the Canadian Investor Protection Fund within specified limits.  A brochure describing the nature and limits of coverage is available upon request.
+Notes/Legal Notes,Data,Legal Notes,"In accordance with CIRO Rule 3217, Interactive Brokers Canada Inc. is required to provide you with the following Leverage Risk Disclosure Statement:  Using borrowed money to finance the purchase of securities involves greater risk than using cash resources only.  If you borrow money to purchase securities, your responsibility to repay the loan and pay interest as required by its terms remains the same even if the value of the securities purchased declines."
+Notes/Legal Notes,Data,Legal Notes,"**If this portfolio statement differs from your records, please report the differences directly to our external auditors. If no differences are reported, they will assume this portfolio statement is correct.** Deloitte s.e.n.c.r.l., Assurance & Advisory Services, audit-IBC@deloitte.ca, Telephone: 514-390-1712, Fax: 514-390-4113"
+Notes/Legal Notes,Data,Legal Notes,"Interactive Brokers LLC provides execution, clearing and custody services to Interactive Brokers Canada Inc."
+Notes/Legal Notes,Data,Legal Notes,"Interactive Brokers Canada Inc. is a member of the Canadian Investment Regulatory Organization (CIRO) and Member - Canadian Investor Protection Fund. Trading of securities and derivatives may involve a high degree of risk and investors should be prepared for the risk of losing their entire investment and losing further amounts. Interactive Brokers Canada Inc. is an execution-only dealer and does not provide investment advice or recommendations regarding the purchase or sale of any securities or derivatives. Our registered office is located at 1800 McGill College Avenue, Suite 2106, Montreal, Quebec, H3A 3J6, Canada."
+Notes/Legal Notes,Data,Legal Notes,"Interactive Brokers Canada Inc. Self-Directed Plan assets are held in trust by the trustee, The Royal Trust Company."
+Notes/Legal Notes,Data,Legal Notes,Cash balances held in registered accounts are held in trust by The Royal Trust Company.
+Notes/Legal Notes,Data,Legal Notes,There are tax consequences pursuant to the Income Tax Act (Canada) on the acquisition or holding by the registered account of non-qualified investments. Please consult a tax adviser and the Canada Revenue Agency for more details.

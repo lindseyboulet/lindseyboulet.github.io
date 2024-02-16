@@ -1,0 +1,19 @@
+---
+title: "Olliver's Account"
+author: "LMB"
+date: "`r Sys.Date()`"
+categories: ["R"]
+tags: ["R Markdown", "plot", "regression"]
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(collapse = TRUE)
+source("index.en_files/functions/os_as_gn_ibkr_load.R", echo=TRUE)
+```
+
+
+Total Invested: $`r round(dfout[2,2], 2)`  
+Current Value: $`r round(dfout[2,3], 2)`  
+Gain: $`r round(dfout[2,4], 2)`  
+Gain (%): `r paste0(round(dfout[2,4]/dfout[2,2]*100,1), "%")`
+
